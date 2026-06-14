@@ -1,9 +1,4 @@
-This readme file was generated on * YYYY-MM-DD * by * NAME *
-<!---
-Visit [Writing READMEs for Research Code & Software](https://data.research.cornell.edu/data-management/sharing/writing-readmes-for-research-code-software/) guidance for more details
-
--->
-
+This readme file was generated on 2026-06-11 by Jakub Garbas
 
 # GENERAL INFORMATION
 
