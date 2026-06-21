@@ -26,14 +26,13 @@ ___
 1. Clone repository
 2. Opne new Terminal and write pip install all libraries listed in 'libraries.txt'
 3. Go steamcommunity.com/dev/apikey and get you Steam API key
-4. Create a new .env file in the project folder and add your Steam API key, by writting this in the .env file: STEAM_API_KEY=your_api_key
+4. Create a new .env file in the project folder and add your Steam API key, by writting this in the .env file: STEAM_API_KEY=your_steam_api_key
 5. Open new Terminal use cd\*yourProjectLocation*
 6. In Terminal write streamlit run app.py
 7. New web tab should open with you "Analizator sentymentu recenzji Steam" should work
 **System requirements:** Python environment
 **Required libraries, packages, modules:** All required dependencies are in 'libraries.txt'
-[!Tip] * A package management tool can generate a list of dependencies for a project (e.g., Python’s pip freeze will output a list of installed packages in a format that can be used to create a “requirements.txt” file)
-**Setup requirements:** In folder with app.py create .env file, it should store your Steam API key
+**Setup requirements:** In folder with app.py create .env file, it should store your Steam API key. API is available on the Steam website at this link: steamcommunity.com/dev/apikey
 **Known issues:** Upon initial launch and during every restar, app requires a few seconds to fetch and update complete list of titles from Steam
 ___
 
@@ -46,7 +45,7 @@ ___
 **Usage example**
 1. In "Wyszukaj grę" field write name of game you want to analyse
 2. Click "Szukaj" button underneath
-3. Select game from list, if title is wrote correctly, there should be only one title to choose
+3. Select game from list, if title is spelled correctly there should usually be only one position to choose from
 4. Select desired number of review to analyse, up to 5000
 5. Cick "Analizuj wybraną grę"
 6. After few seconds there should appear "Ogólna ocena ze Steam" -> pie chart -> word cloud for positive and negative sentiment -> 3 the most negative comments -> 3 most positive comment about selected game
@@ -58,35 +57,22 @@ ___
 # LICENSE
 
 **Software License:** To consultation
-[!Note] This should also be in the source code as well
-Visit https://choosealicense.com for useful and short summaries on the licenses
 **Preferred citation:** Garbas, J (2026) Analizator sentymentu recenzji na platformie Steam
 
 ___
 
 # CONTACT INFORMATION
-[!Note] Provide at least two contacts; repeat block for additional contributors as needed
 
 **Contact**
-Name:
-Role: (e.g., principal investigator, programmer, developer, maintainer, copyright owner)
-ORCID:
-Institution:
-Email:
-
-**Contact**
-Name:
-Role: (e.g., principal investigator, programmer, developer, maintainer, copyright owner)
-ORCID:
-Institution:
-Email:
+Name:Jakub Garbas
+Role: Developer, Copyright owner
+Institution: University of Economics in Katowice
+Email:jakub.garbas@edu.uekat.pl
 
 ___
 
 # ACKNOWLEDGEMENTS
 
-**Funding:** Provide a list of funding sources that supported the creation of the software project; include funder name and grant number(s)
-**Publications using our software:** Add citations to any publications using this software project
-**Project is available:** Add a link to other locations where the software project is available (e.g., Zenodo, GitHub, institutional repository)
-**Related relationships:** List relationships to ancillary scripts, applications, or data sets
-**Contributors:** List all contributors and their roles
+**Publications using our software:** Garbas, J. Sentiment Analysis of Steam Reviews.
+**Related relationships:** Steam API
+**Contributors:** Jakub Garbas
