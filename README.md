@@ -56,7 +56,7 @@ ___
 
 # LICENSE
 
-**Software License:** To consultation
+**Software License:** MIT License
 **Preferred citation:** Garbas, J (2026) Analizator sentymentu recenzji na platformie Steam
 
 ___
